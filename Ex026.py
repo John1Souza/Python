@@ -1,0 +1,7 @@
+frase = str(input('Digite a frase: '))#.upper().strip()
+print(f'A frase tem um total de {frase.lower().count("a")} letras "A"')
+frase1 = frase.replace(' ', '')
+posA = frase1.lower().find('a')
+print(f'A primeira letra "A" aparece na posição {posA}')
+posRA = frase1.lower().rfind('a')
+print(f'A última letra "A" aparece na posição {posRA}')

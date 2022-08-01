@@ -1,0 +1,5 @@
+cid = input('Digite o nome da cidade do seu nascimento: ')
+c = cid.upper().split()
+#c1 = c.replace(' ', '')
+print(c)
+print(f'A sua cidade começa com santo: {"SANTO" == c[0]}')

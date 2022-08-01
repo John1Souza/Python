@@ -1,0 +1,8 @@
+salario = float(input('Digite o valor do salário atual: R$ '))
+print('='*10, end=' ')
+print('Calculando reajuste salarial de 15.00%...', end=' ')
+print('='*10)
+print(f'O valor do salário reajustado é R$ {salario*1.15:.2f}')
+print('='*10, end=' ')
+print('Finalizando...', end=' ')
+print('='*10)
